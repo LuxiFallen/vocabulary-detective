@@ -57,14 +57,14 @@
 
   <script>
     // Replace with your deployed Google Apps Script Web App URL
-    const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw0dxo6kUw-4gW7Nibd-dHu46x2-5ipU-Y1ZbOtplrbwjbktBTqB5p71G81GCJKaD1W/exec";
+    const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz36lX8XOlvVQw_RYIFxiTC9zb_36L8Dr7kVsGenM_xJhEEJY28TBs_oRYvdBvHuvep/exec";
     
     let activeQuest = null;
 
     // --- 1. Fetch Quests from Google Apps Script ---
     async function fetchQuests() {
       try {
-        const response = await fetch(`${GOOGLE_SCRIPT_URL}?action=getQuests`);
+        const response = await fetch(`${https://script.google.com/macros/s/AKfycbz36lX8XOlvVQw_RYIFxiTC9zb_36L8Dr7kVsGenM_xJhEEJY28TBs_oRYvdBvHuvep/exec}?action=getQuests`);
         const quests = await response.json();
         console.log("Loaded Quests:", quests);
         // Start conversation with the first loaded quest (Barnaby the Baker)
